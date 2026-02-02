@@ -6,7 +6,7 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto">
         <div className="flex flex-col md:flex-row justify-between items-center gap-6">
           <div className="text-center md:text-left">
-            <p className="text-lg font-semibold text-white mb-2">Fabian Zuñiga Huerta</p>
+            <p className="text-lg font-semibold text-white mb-2 pb-4">Fabian Zuñiga Huerta</p>
             <p className="text-sm">Desarrollador de Software Jr.</p>
           </div>
           <div className="flex flex-wrap justify-center gap-6">
