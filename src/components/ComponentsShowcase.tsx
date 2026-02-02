@@ -2,6 +2,7 @@ import MusicCard from './MusicCard'
 import KPICard from './KPICard'
 import DeviceStatusCard from './DeviceStatusCard'
 import ControlledForm from './Form/ControlledForm'
+import Weather from './Weather'
 import { useToast } from './ToastContainer'
 
 interface ComponentsShowcaseProps {
@@ -134,6 +135,16 @@ export default function ComponentsShowcase({ darkMode, setDarkMode }: Components
                 Controlled Form
               </h3>
               <ControlledForm />
+            </div>
+          </div>
+
+          {/* Weather Component */}
+          <div className="md:col-span-1 lg:col-span-1">
+            <div className="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-lg border border-gray-200 dark:border-gray-700">
+              <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-4">
+                Weather Component
+              </h3>
+              <Weather />
             </div>
           </div>
 
